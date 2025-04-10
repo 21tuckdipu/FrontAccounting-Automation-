@@ -41,7 +41,7 @@ public class LoginComppnent {
 			   Thread.sleep(2000);
 		    }
 		   catch (Exception e) {
-			   System.out.println("ERROR "+e.toString());
+			   System.out.println("ERROR ");
 			   decoration();
 		       System.out.println("By : "+elements+" Elements :"+values);
 		       decoration();
@@ -57,7 +57,7 @@ public class LoginComppnent {
 	         }
 	    catch (Exception e) {
 	    	   
-		       System.out.println("ERROR "+e.toString());
+		       System.out.println("ERROR ");
 		       decoration();
 		       System.out.println("By : "+elements+" Elements :"+values);
 		       decoration();

@@ -20,8 +20,8 @@ public class InventoryLocationPages extends LoginComppnent {
 		try {
 			Thread.sleep(200);
 		} catch (InterruptedException e) {
-			
-			e.printStackTrace();
+
+			System.out.println(" ");
 		}
 		driver.findElement(By.xpath("/html/body/table[1]/tbody/tr/td/table[1]/tbody/tr/td/table/tbody/tr/td/table[1]/tbody/tr/td/div/a[3]")).click();
 		driver.findElement(By.xpath("/html/body/table[1]/tbody/tr/td/table[1]/tbody/tr/td/div[2]/table/tbody/tr[1]/td/table/tbody/tr[2]/td/a[1]")).click();

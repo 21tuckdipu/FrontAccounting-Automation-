@@ -30,7 +30,7 @@ public class PaymentSupplierPages extends LoginComppnent {
 
 	//repos
 	By supplier = By.id("supplier_id"); //1
-	By accout = By.id("bank_account");
+//	By accout = By.id("bank_account");
 	By date = By.name("DatePaid");
 	By ref = By.name("ref");
 	By bank_amount = By.name("bank_amount");

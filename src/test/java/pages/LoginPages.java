@@ -45,7 +45,7 @@ public class LoginPages {
 			           element.sendKeys(values);
 			}
 			catch (Exception e) {
-				System.out.println("ERROR "+e.toString());
+				System.out.println("ERROR ");
 			}
 			}
 
