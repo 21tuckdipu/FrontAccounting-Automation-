@@ -27,7 +27,8 @@ public class ItemStatusPages extends LoginComppnent {
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
-			e.printStackTrace();
+//			e.printStackTrace();
+			System.out.println("");
 		}
 	}
 	//\repos

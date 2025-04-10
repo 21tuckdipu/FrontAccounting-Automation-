@@ -29,12 +29,12 @@ public class SupplierInvoicePages extends LoginComppnent{
 			}
 	 
 	 //repos
-	 By supplier_id = By.id("supplier_id");
+//	 By supplier_id = By.id("supplier_id");
 	 By reference = By.name("reference");
 	 By supplier_ref = By.name("supp_reference");
 	 By dimension = By.id("dimension");
-	 By date = By.name("tran_date");
-	 By due_date = By.name("due_date");
+//	 By date = By.name("tran_date");
+//	 By due_date = By.name("due_date");
 	 
 	 By account = By.id("_gl_code_edit");
 	 By name = By.id("gl_code");
@@ -45,7 +45,7 @@ public class SupplierInvoicePages extends LoginComppnent{
 	 //add
 	 By add = By.id("AddGLCodeToTrans");
 	 By reset = By.id("ClearFields");
-	 By  update = By.id("update");
+//	 By  update = By.id("update");
 	 
 	 //last
 	 By comment = By.name("Comments");
@@ -57,9 +57,9 @@ public class SupplierInvoicePages extends LoginComppnent{
 	 public void suppplier(String values) {
 		 general(supplier_ref, values);
 	 }
-	 public void referenceCus(String values) {
-		generalText(reference, values);
-	}
+//	 public void referenceCus(String values) {
+//		generalText(reference, values);
+//	}
 	 public void supplierReference(String values) {
 		generalText(supplier_ref, values);
 	}

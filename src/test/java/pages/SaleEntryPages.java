@@ -30,9 +30,9 @@ public class SaleEntryPages extends  component_one{
 			driver.findElement(By.name("SubmitUser")).click();
 		}
 	
-		public void close() {
-			driver.quit();
-		}
+//		public void close() {
+//			driver.quit();
+//		}
 		
 		public void openPage() {
 			driver.findElement(By.xpath("/html/body/table[1]/tbody/tr/td/table[1]/tbody/tr/td/div[2]/table/tbody/tr[1]/td/table/tbody/tr[2]/td[1]/a[1]")).click();
