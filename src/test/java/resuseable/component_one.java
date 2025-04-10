@@ -38,7 +38,7 @@ public class component_one {
 			Thread.sleep(200);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
 	}
 	public void quitBrower() {
@@ -65,7 +65,7 @@ public class component_one {
 		By discount = By.name("Disc");
 		By shipping_charges = By.name("freight_cost");
 		By add_item = By.id("AddItem");
-		By update_item = By.id("update");
+//		By update_item = By.id("update");
 
 	
 		//Customer Payments Mode
@@ -86,7 +86,7 @@ public class component_one {
 					   Thread.sleep(2000);
 				}
 				catch (Exception e) {
-					System.out.println("ERROR "+e.toString());
+					System.out.println("ERROR ");
 				}
 			}
 			
@@ -98,7 +98,7 @@ public class component_one {
 			           element.sendKeys(values);
 			}
 			catch (Exception e) {
-				System.out.println("ERROR "+e.toString());
+				System.out.println("ERROR ");
 			}
 			}
 		
@@ -120,9 +120,9 @@ public class component_one {
 			general(payment, paymentTime);
 		}
 	
-		public void Refer(String reference) {
-			generalText(this.reference, reference);
-		}
+//		public void Refer(String reference) {
+//			generalText(this.reference, reference);
+//		}
 	
 		
 		//Item Entry
@@ -157,9 +157,9 @@ public class component_one {
 			generalText(this.comments, comments);
 		}
 		
-		public void shippingComp(String values) {
-			general(shipping_company, values);
-		}
+//		public void shippingComp(String values) {
+//			general(shipping_company, values);
+//		}
 		
 		
 		
