@@ -12,10 +12,13 @@
        3: Delivery Against Sales Order
        4: Sales invoice Entry
        5: Customer Payment
+       
     2.Purchase
        1:Supplier Order Entry
        2: Supplier Payment Entry
        3: Supplier Invoice
+
+       
     3. Item And Inventory
        1:Inventory Location Transfer
        2:Inventory Item Movement
